@@ -1,0 +1,45 @@
+@import'../base/variables';
+
+
+
+header {
+    background-color: white;
+    display: block;
+}
+
+.snack {
+    color: #ff5f00;
+    font-family: "lobster";
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.vegano {
+    color: #9fc088;
+    font-family: "lobster";
+    font-size: 3rem;
+    padding-left: 3rem;
+}
+
+.t-quienes {
+    color: rgba(0, 0, 0, 0.656);
+    font-family: "lobster";
+    font-size: 6rem;
+    text-align: center;
+    @media screen and (max-width: 450px) {
+		font-size: 3rem;
+	}
+
+	
+}
+
+.p-quienes {
+    color: #9fc088;
+    font-family: "lobster";
+    font-size: 3rem;
+    margin-left: 1rem;
+    @media screen and (max-width: 450px) {
+		font-size: 1.5rem;
+	}
+}
