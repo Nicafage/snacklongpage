@@ -8,17 +8,14 @@
   font-family: "lobster";
   src: url("font/Lobster-Regular.ttf");
 }
-
 @font-face {
   font-family: "hartone";
   src: url("font/Hartone Softed.ttf");
 }
-
 @font-face {
   font-family: "fjallaone";
   src: url("font/FjallaOne-Regular.ttf");
 }
-
 .disclaimer {
   display: none;
 }
@@ -49,7 +46,6 @@ header {
   font-size: 6rem;
   text-align: center;
 }
-
 @media screen and (max-width: 450px) {
   .t-quienes {
     font-size: 3rem;
@@ -62,7 +58,6 @@ header {
   font-size: 3rem;
   margin-left: 1rem;
 }
-
 @media screen and (max-width: 450px) {
   .p-quienes {
     font-size: 1.5rem;
@@ -79,7 +74,6 @@ section div {
   display: flex;
   justify-content: center;
 }
-
 section div img {
   width: 50%;
   background-color: #2c3333;
@@ -120,115 +114,9 @@ footer {
   margin-left: 20px;
 }
 
-.card-title {
-  font-family: "lobster";
-  font-size: 3rem;
-}
-
-.card-text {
-  font-family: "hartone";
-  font-size: 1.5rem;
-}
-
-.card-text img {
-  width: 7.5rem;
-  border-radius: 100%;
-}
-
-.card-title-1 {
-  font-family: "lobster";
-  font-size: 3rem;
-}
-
-.card-text-1 {
-  text-align: start;
-  font-family: "lobster";
-  font-size: 2rem;
-}
-
-.card {
-  position: initial;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 0.5fr;
-  gap: 5px 4px;
-  grid-auto-flow: row;
-  grid-template-areas: ". .";
-}
-
-@media screen and (max-width: 450px) {
-  .container {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    display: block;
-  }
-}
-
-.p-1 {
-  font-family: "lobster";
-  font-size: 3rem;
-}
-
-@media screen and (max-width: 450px) {
-  .p-1 {
-    font-size: 2rem;
-    margin: auto;
-  }
-}
-
-.p-2 {
-  text-align: start;
-  font-family: "lobster";
-  font-size: 2rem;
-}
-
-@media screen and (max-width: 450px) {
-  .p-2 {
-    font-size: 1rem;
-    margin: auto;
-  }
-}
-
-.p-3 {
-  font-family: "hartone";
-  font-size: 1.5rem;
-}
-
-@media screen and (max-width: 450px) {
-  .p-3 {
-    font-size: 0.75rem;
-    margin: auto;
-  }
-}
-
-.img-kangoo {
+.barra {
   width: 100%;
-}
-
-@media screen and (max-width: 450px) {
-  .img-kangoo {
-    width: 100%;
-    margin-left: 0rem;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .img-kangoo {
-    width: 100%;
-    margin-left: 0rem;
-  }
-}
-
-.img-fluid-contacto {
-  width: 50%;
-  margin-left: 11rem;
+  position: fixed;
 }
 
 .img-inicio {
@@ -246,13 +134,11 @@ footer {
   margin-bottom: 1rem;
   margin-top: 10rem;
 }
-
 @media screen and (max-width: 450px) {
   .img-inicio img {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 540px) {
   .img-inicio img {
     width: 100%;
@@ -266,11 +152,7 @@ footer {
   gap: 1px 1px;
   font-size: 1.5rem;
   font-family: "fjallaone";
-  padding: 8rem;
-  width: 100%;
-  background-image: linear-gradient(to top, rgba(150, 251, 195, 0.329) 0%, rgba(249, 245, 134, 0.418) 100%) , url(../imagenes/Arvejas.jpg);
 }
-
 
 .info {
   background-color: none;
@@ -296,6 +178,25 @@ footer {
   background-color: #f57a33;
 }
 
+.card-title {
+  font-family: "lobster";
+  font-size: 3rem;
+}
+
+.card-text {
+  font-family: "hartone";
+  font-size: 1.5rem;
+}
+
+.card-text img {
+  width: 7.5rem;
+  border-radius: 100%;
+}
+
+.card {
+  position: initial;
+}
+
 .img-quienes-somos {
   width: 100%;
 }
@@ -303,22 +204,89 @@ footer {
 .img-quienes-somos img {
   width: 100%;
 }
-
 @media screen and (max-width: 450px) {
   .img-quienes-somos img {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 540px) {
   .img-quienes-somos img {
     width: 100%;
   }
 }
 
-.barra {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 0.5fr;
+  gap: 5px 4px;
+  grid-auto-flow: row;
+  grid-template-areas: ". .";
+}
+@media screen and (max-width: 450px) {
+  .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    display: block;
+  }
+}
+
+.p-1 {
+  font-family: "lobster";
+  font-size: 3rem;
+}
+@media screen and (max-width: 450px) {
+  .p-1 {
+    font-size: 2rem;
+    margin: auto;
+  }
+}
+
+.p-2 {
+  text-align: start;
+  font-family: "lobster";
+  font-size: 2rem;
+}
+@media screen and (max-width: 450px) {
+  .p-2 {
+    font-size: 1rem;
+    margin: auto;
+  }
+}
+
+.p-3 {
+  font-family: "hartone";
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 450px) {
+  .p-3 {
+    font-size: 0.75rem;
+    margin: auto;
+  }
+}
+
+.img-kangoo {
   width: 100%;
-  position: fixed;
+}
+@media screen and (max-width: 450px) {
+  .img-kangoo {
+    width: 100%;
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .img-kangoo {
+    width: 100%;
+    margin-left: 0rem;
+  }
+}
+
+.img-fluid-contacto {
+  width: 50%;
+  margin-left: 11rem;
 }
 
 /*# sourceMappingURL=style.css.map */
