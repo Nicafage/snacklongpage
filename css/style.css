@@ -139,6 +139,9 @@ footer {
   font-family: "lobster";
   font-size: 2rem;
 }
+.card{
+  position: initial;
+}
 
 .container {
   display: grid;
