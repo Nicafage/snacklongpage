@@ -14,12 +14,25 @@
 
 // nav
 
-.barra{
+.barra {
 	width: 100%;
-    position: fixed;
+	position: fixed;
 }
 
 // index
+.snack-index{
+	font-family: "Tangerine";
+	
+}
+.vegano-index{
+	font-family: "Tangerine";
+}
+.aritos-index{
+	font-family: "Sacramento";
+}
+.horneados-index{
+	font-family: "Sacramento";	
+}
 
 .img-inicio {
 	width: 100%;
@@ -46,6 +59,9 @@
 }
 
 // info nutricional
+.div-info{
+	position: relative;
+}
 
 .columnas {
 
@@ -55,7 +71,9 @@
 	gap: 1px 1px;
 	font-size: 1.5rem;
 	font-family: "fjallaone";
-
+	background-image: url(../imagenes/Arvejas.jpg) ;
+	background-size: cover;
+	padding: 6rem;
 }
 
 .info {
@@ -67,7 +85,7 @@
 }
 
 .info-1 {
-	background-color: #9fc088;
+	background-color: #9fc0886b;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 1;
@@ -75,11 +93,11 @@
 }
 
 .info-2 {
-	background-color: #3b6120;
+	background-color: #3b61207c;
 }
 
 .info-3 {
-	background-color: #f57a33;
+	background-color: #f57a3371;
 }
 
 
@@ -100,8 +118,8 @@
 	border-radius: 100%;
 }
 
-.card{
-	position: initial;	
+.card {
+	position: initial;
 }
 
 // quienes somos
@@ -175,6 +193,7 @@
 		margin: auto;
 	}
 }
+
 // queres ser distribuidor
 
 .img-kangoo {
