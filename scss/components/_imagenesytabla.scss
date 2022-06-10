@@ -20,18 +20,28 @@
 }
 
 // index
-.snack-index{
-	font-family: "Tangerine";
-	
+.index{
+text-align: center;
+background-color: white;
 }
+
+.snack-index{
+	margin-top: 8rem;
+	font-size: 10rem;
+	color: #ff5f00 ;
+}
+
 .vegano-index{
-	font-family: "Tangerine";
+	font-size: 10rem;
+	color: #9fc088 ;
 }
 .aritos-index{
-	font-family: "Sacramento";
+	font-size: 7rem;
+	color: #ff5f00;
 }
 .horneados-index{
-	font-family: "Sacramento";	
+	font-size: 6rem;
+	color: #ff5f00;
 }
 
 .img-inicio {
