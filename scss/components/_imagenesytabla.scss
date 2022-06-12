@@ -22,7 +22,7 @@
 // index
 .index{
 text-align: center;
-background-color: white;
+background-color: rgb(0, 0, 0);
 }
 
 .snack-index{
@@ -30,6 +30,7 @@ background-color: white;
 	font-size: 10rem;
 	color: #ff5f00 ;
 }
+
 
 .vegano-index{
 	font-size: 10rem;
@@ -74,16 +75,16 @@ background-color: white;
 }
 
 .columnas {
-
 	display: grid;
 	grid-template-columns: 1.5fr 1.5fr 1fr;
 	grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-	gap: 1px 1px;
+	gap: 4px 4px;
 	font-size: 1.5rem;
-	font-family: "fjallaone";
+	font-family: "lobster";
 	background-image: url(../imagenes/Arvejas.jpg) ;
 	background-size: cover;
-	padding: 6rem;
+	padding: 3rem;
+	text-align: center;
 }
 
 .info {
@@ -109,7 +110,10 @@ background-color: white;
 .info-3 {
 	background-color: #f57a3371;
 }
+.info-tecnica{
+	font-size: 2.5rem;
 
+}
 
 // contacto
 
@@ -132,7 +136,22 @@ background-color: white;
 	position: initial;
 }
 
+.img-fluid-contacto {
+	width: 50%;
+	margin-left: 11rem;
+}
+
 // quienes somos
+
+.contenedor {  display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 8px 8px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  ". .";
+  }
+  
 
 .img-quienes-somos {
 	width: 100%;
@@ -204,8 +223,6 @@ background-color: white;
 	}
 }
 
-// queres ser distribuidor
-
 .img-kangoo {
 	width: 100%;
 
@@ -219,9 +236,7 @@ background-color: white;
 		margin-left: 0rem;
 	}
 }
-
-
-.img-fluid-contacto {
-	width: 50%;
-	margin-left: 11rem;
+.img-kangoo img{
+	width: 100%;
 }
+

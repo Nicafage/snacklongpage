@@ -14,11 +14,11 @@
 }
 @font-face {
   font-family: "fjallaone";
-  src: url("/long.page/font/FjallaOne-Regular.ttf");
+  src: url("font/FjallaOne-Regular.ttf");
 }
 @font-face {
   font-family: "Tangerine";
-  src: url("/long.page/font/Tangerine-Bold.ttf");
+  src: url("font/Tangerine-Bold.ttf");
 }
 @font-face {
   font-family: "Sacramento";
@@ -76,21 +76,6 @@ header {
   display: none;
 }
 
-section div {
-  width: 100%;
-  background-color: #464E2E;
-  display: flex;
-  justify-content: center;
-}
-section div img {
-  width: 50%;
-  background-color: #2c3333;
-  margin-top: auto;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
 footer {
   background-color: black;
 }
@@ -129,7 +114,7 @@ footer {
 
 .index {
   text-align: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 .snack-index {
@@ -187,12 +172,13 @@ footer {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-  gap: 1px 1px;
+  gap: 4px 4px;
   font-size: 1.5rem;
-  font-family: "fjallaone";
+  font-family: "lobster";
   background-image: url(../imagenes/Arvejas.jpg);
   background-size: cover;
-  padding: 6rem;
+  padding: 3rem;
+  text-align: center;
 }
 
 .info {
@@ -219,6 +205,10 @@ footer {
   background-color: rgba(245, 122, 51, 0.4431372549);
 }
 
+.info-tecnica {
+  font-size: 2.5rem;
+}
+
 .card-title {
   font-family: "lobster";
   font-size: 3rem;
@@ -236,6 +226,20 @@ footer {
 
 .card {
   position: initial;
+}
+
+.img-fluid-contacto {
+  width: 50%;
+  margin-left: 11rem;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 8px 8px;
+  grid-auto-flow: row;
+  grid-template-areas: ". .";
 }
 
 .img-quienes-somos {
@@ -325,9 +329,33 @@ footer {
   }
 }
 
-.img-fluid-contacto {
-  width: 50%;
-  margin-left: 11rem;
+.img-kangoo img {
+  width: 100%;
+}
+
+.li-index {
+  padding: 2rem;
+  background-color: black;
+  list-style: none;
+}
+
+.informacion-nutricional {
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  background-color: white;
+}
+
+.contacto {
+  padding-top: 9rem;
+}
+
+.quienes-somos {
+  padding-top: 9rem;
+}
+
+.quiero-ser-distribuidor {
+  padding-top: 9rem;
+  padding-bottom: 20rem;
 }
 
 /*# sourceMappingURL=style.css.map */
