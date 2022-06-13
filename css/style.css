@@ -6,23 +6,35 @@
 
 @font-face {
   font-family: "lobster";
-  src: url("font/Lobster-Regular.ttf");
+  src: url("../font/Lobster-Regular.ttf");
 }
 @font-face {
   font-family: "hartone";
-  src: url("font/Hartone Softed.ttf");
+  src: url("../font/Hartone Softed.ttf");
 }
 @font-face {
   font-family: "fjallaone";
-  src: url("font/FjallaOne-Regular.ttf");
+  src: url("../font/FjallaOne-Regular.ttf");
 }
 @font-face {
   font-family: "Tangerine";
-  src: url("font/Tangerine-Bold.ttf");
+  src: url("../font/Tangerine-Bold.ttf");
 }
 @font-face {
   font-family: "Sacramento";
-  src: url("font/Sacramento-Regular.ttf");
+  src: url("../font/Sacramento-Regular.ttf");
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../font/EBGaramond-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Kirang Haerang";
+  src: url("../font/KirangHaerang-Regular.ttf");
+}
+@font-face {
+  font-family: "Bubbler One";
+  src: url("../font/BubblerOne-Regular.ttf");
 }
 .disclaimer {
   display: none;
@@ -46,34 +58,6 @@ header {
   font-family: "lobster";
   font-size: 3rem;
   padding-left: 3rem;
-}
-
-.t-quienes {
-  color: rgba(0, 0, 0, 0.656);
-  font-family: "lobster";
-  font-size: 6rem;
-  text-align: center;
-}
-@media screen and (max-width: 450px) {
-  .t-quienes {
-    font-size: 3rem;
-  }
-}
-
-.p-quienes {
-  color: #9fc088;
-  font-family: "lobster";
-  font-size: 3rem;
-  margin-left: 1rem;
-}
-@media screen and (max-width: 450px) {
-  .p-quienes {
-    font-size: 1.5rem;
-  }
-}
-
-.disclaimer {
-  display: none;
 }
 
 footer {
@@ -107,139 +91,14 @@ footer {
   margin-left: 20px;
 }
 
-.barra {
-  width: 100%;
-  position: fixed;
-}
-
-.index {
-  text-align: center;
-  background-color: rgb(0, 0, 0);
-}
-
-.snack-index {
-  margin-top: 8rem;
-  font-size: 10rem;
-  color: #ff5f00;
-}
-
-.vegano-index {
-  font-size: 10rem;
-  color: #9fc088;
-}
-
-.aritos-index {
-  font-size: 7rem;
-  color: #ff5f00;
-}
-
-.horneados-index {
-  font-size: 6rem;
-  color: #ff5f00;
-}
-
-.img-inicio {
-  width: 100%;
-  background-color: #131313;
-  display: flex;
-  justify-content: center;
-}
-
-.img-inicio img {
-  width: 50%;
-  background-color: #131313;
-  margin-top: auto;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 10rem;
-}
-@media screen and (max-width: 450px) {
-  .img-inicio img {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 540px) {
-  .img-inicio img {
-    width: 100%;
-  }
-}
-
-.div-info {
-  position: relative;
-}
-
-.columnas {
-  display: grid;
-  grid-template-columns: 1.5fr 1.5fr 1fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-  gap: 4px 4px;
-  font-size: 1.5rem;
-  font-family: "lobster";
-  background-image: url(../imagenes/Arvejas.jpg);
-  background-size: cover;
-  padding: 3rem;
-  text-align: center;
-}
-
-.info {
-  background-color: none;
-  width: 100%;
-  height: 100%;
-  justify-items: center;
-  padding-left: 2.5rem;
-}
-
-.info-1 {
-  background-color: rgba(159, 192, 136, 0.4196078431);
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-
-.info-2 {
-  background-color: rgba(59, 97, 32, 0.4862745098);
-}
-
-.info-3 {
-  background-color: rgba(245, 122, 51, 0.4431372549);
-}
-
-.info-tecnica {
-  font-size: 2.5rem;
-}
-
-.card-title {
-  font-family: "lobster";
-  font-size: 3rem;
-}
-
-.card-text {
-  font-family: "hartone";
-  font-size: 1.5rem;
-}
-
 .card-text img {
   width: 7.5rem;
   border-radius: 100%;
 }
 
-.card {
-  position: initial;
-}
-
 .img-fluid-contacto {
   width: 50%;
   margin-left: 11rem;
-}
-
-.contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 8px 8px;
-  grid-auto-flow: row;
-  grid-template-areas: ". .";
 }
 
 .img-quienes-somos {
@@ -257,59 +116,6 @@ footer {
 @media screen and (max-width: 540px) {
   .img-quienes-somos img {
     width: 100%;
-  }
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 0.5fr;
-  gap: 5px 4px;
-  grid-auto-flow: row;
-  grid-template-areas: ". .";
-}
-@media screen and (max-width: 450px) {
-  .container {
-    display: block;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .container {
-    display: block;
-  }
-}
-
-.p-1 {
-  font-family: "lobster";
-  font-size: 3rem;
-}
-@media screen and (max-width: 450px) {
-  .p-1 {
-    font-size: 2rem;
-    margin: auto;
-  }
-}
-
-.p-2 {
-  text-align: start;
-  font-family: "lobster";
-  font-size: 2rem;
-}
-@media screen and (max-width: 450px) {
-  .p-2 {
-    font-size: 1rem;
-    margin: auto;
-  }
-}
-
-.p-3 {
-  font-family: "hartone";
-  font-size: 1.5rem;
-}
-@media screen and (max-width: 450px) {
-  .p-3 {
-    font-size: 0.75rem;
-    margin: auto;
   }
 }
 
@@ -333,29 +139,328 @@ footer {
   width: 100%;
 }
 
-.li-index {
+.barra {
+  width: 100%;
+  position: fixed;
+}
+
+.index {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.index .li-index {
   padding: 2rem;
   background-color: black;
   list-style: none;
 }
-
-.informacion-nutricional {
-  padding-top: 7rem;
-  padding-bottom: 8rem;
-  background-color: white;
+@media screen and (max-width: 450px) {
+  .index .li-index {
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    font-size: 3rem;
+  }
+}
+.index .li-index .snack-index {
+  margin-top: 7rem;
+  margin-right: 8rem;
+  font-size: 10rem;
+  color: #ff5f00;
+  font-family: "Kirang Haerang";
+}
+@media screen and (max-width: 1024px) {
+  .index .li-index .snack-index {
+    margin-top: 7rem;
+    margin-right: 8rem;
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .index .li-index .snack-index {
+    margin-top: 8rem;
+    margin-right: 8rem;
+    font-size: 2rem;
+  }
 }
 
-.contacto {
-  padding-top: 9rem;
+.vegano-index {
+  margin-left: 8rem;
+  margin-top: -5rem;
+  font-size: 10rem;
+  color: #9fc088;
+  font-family: "Kirang Haerang";
+}
+@media screen and (max-width: 1024px) {
+  .vegano-index {
+    margin-top: -2rem;
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vegano-index {
+    margin-top: -1rem;
+    font-size: 2rem;
+  }
+}
+
+.aritos-index {
+  font-size: 7rem;
+  color: #ff5f00;
+  font-family: "Sacramento";
+}
+@media screen and (max-width: 1024px) {
+  .aritos-index {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aritos-index {
+    font-size: 2rem;
+  }
+}
+
+.horneados-index {
+  font-size: 6rem;
+  color: #ff5f00;
+  font-family: "Sacramento";
+}
+@media screen and (max-width: 1024px) {
+  .horneados-index {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .horneados-index {
+    font-size: 3rem;
+  }
 }
 
 .quienes-somos {
   padding-top: 9rem;
 }
 
-.quiero-ser-distribuidor {
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 8px 8px;
+  grid-auto-flow: row;
+  grid-template-areas: ". .";
+}
+@media screen and (max-width: 1024px) {
+  .contenedor {
+    display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contenedor {
+    display: block;
+  }
+}
+
+.t-quienes {
+  font-family: "hartone";
+  font-size: 6rem;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .t-quienes {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .t-quienes {
+    font-size: 3rem;
+  }
+}
+
+.p-quienes {
+  font-size: 2.5rem;
+  text-align: justify;
+}
+@media screen and (max-width: 1024px) {
+  .p-quienes {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .p-quienes {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.div-info {
+  position: relative;
+}
+
+.informacion-nutricional {
   padding-top: 9rem;
-  padding-bottom: 20rem;
+  background-color: white;
+}
+
+.columnas {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  gap: 4px 4px;
+  font-size: 1.5rem;
+  font-family: "EB Garamond";
+  background-image: url(../imagenes/Arvejas.jpg);
+  background-size: cover;
+  padding: 3rem;
+  text-align: center;
+}
+
+.info-1 {
+  background-color: rgba(159, 192, 136, 0.89);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.info-2 {
+  background-color: rgba(59, 97, 32, 0.85);
+}
+
+.info-3 {
+  background-color: rgba(245, 122, 51, 0.66);
+}
+
+.info-tecnica {
+  font-size: 2.2rem;
+  font-family: "Bubbler One";
+  text-align: initial;
+}
+@media screen and (max-width: 680px) {
+  .info-tecnica {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .info-tecnica {
+    font-size: 1.5rem;
+  }
+}
+
+.contacto {
+  padding-top: 23rem;
+  padding-bottom: 4rem;
+  background-color: white;
+}
+@media screen and (max-width: 450px) {
+  .contacto {
+    padding-top: 18rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.card-title {
+  font-family: "lobster";
+  font-size: 3rem;
+}
+@media screen and (max-width: 680px) {
+  .card-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+.card-text {
+  font-family: "EB Garamond";
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 680px) {
+  .card-text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+.card {
+  position: initial;
+}
+
+.quiero-ser-distribuidor {
+  padding-top: 16rem;
+  padding-bottom: 6.5rem;
+  background-color: white;
+}
+@media screen and (max-width: 450px) {
+  .quiero-ser-distribuidor {
+    padding-top: 7.5rem;
+    padding-bottom: 0rem;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 0.5fr;
+  gap: 5px 4px;
+  grid-auto-flow: row;
+  grid-template-areas: ". .";
+  background-color: white;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    display: block;
+  }
+}
+
+.p-1 {
+  font-family: "lobster";
+  font-size: 3rem;
+  text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .p-1 {
+    font-size: 3rem;
+    margin: auto;
+  }
+}
+
+.p-2 {
+  text-align: start;
+  font-family: "lobster";
+  font-size: 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .p-2 {
+    font-size: 1.5rem;
+    margin: auto;
+  }
+}
+
+.p-3 {
+  font-family: "EB Garamond";
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 450px) {
+  .p-3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,24 +1,37 @@
 @font-face {
 	font-family: "lobster";
-	src: url('font/Lobster-Regular.ttf');
+	src: url('../font/Lobster-Regular.ttf');
 }
 
 @font-face {
 	font-family: "hartone";
-	src: url('font/Hartone\ Softed.ttf');
+	src: url('../font/Hartone\ Softed.ttf');
 }
 
 @font-face {
 	font-family: "fjallaone";
-	src: url('font/FjallaOne-Regular.ttf');
+	src: url('../font/FjallaOne-Regular.ttf');
 }
 
-@font-face{
+@font-face {
 	font-family: "Tangerine";
-	src: url('font/Tangerine-Bold.ttf');
+	src: url('../font/Tangerine-Bold.ttf');
 }
 
 @font-face {
 	font-family: "Sacramento";
-	src: url('font/Sacramento-Regular.ttf');
+	src: url("../font/Sacramento-Regular.ttf");
+}
+
+@font-face {
+	font-family: "EB Garamond";
+	src: url("../font/EBGaramond-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+	font-family: "Kirang Haerang";
+	src: url("../font/KirangHaerang-Regular.ttf");
+}
+@font-face {
+	font-family: "Bubbler One";
+	src: url("../font/BubblerOne-Regular.ttf");
 }

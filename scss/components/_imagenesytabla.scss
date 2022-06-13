@@ -12,128 +12,14 @@
 	margin-left: 20px;
 }
 
-// nav
-
-.barra {
-	width: 100%;
-	position: fixed;
-}
-
-// index
-.index{
-text-align: center;
-background-color: rgb(0, 0, 0);
-}
-
-.snack-index{
-	margin-top: 8rem;
-	font-size: 10rem;
-	color: #ff5f00 ;
-}
 
 
-.vegano-index{
-	font-size: 10rem;
-	color: #9fc088 ;
-}
-.aritos-index{
-	font-size: 7rem;
-	color: #ff5f00;
-}
-.horneados-index{
-	font-size: 6rem;
-	color: #ff5f00;
-}
+//contacto
 
-.img-inicio {
-	width: 100%;
-	background-color: #131313;
-	display: flex;
-	justify-content: center;
-}
-
-.img-inicio img {
-	width: 50%;
-	background-color: #131313;
-	margin-top: auto;
-	padding: 1rem;
-	margin-bottom: 1rem;
-	margin-top: 10rem;
-
-	@media screen and (max-width: 450px) {
-		width: 100%;
-	}
-
-	@media screen and (max-width: 540px) {
-		width: 100%;
-	}
-}
-
-// info nutricional
-.div-info{
-	position: relative;
-}
-
-.columnas {
-	display: grid;
-	grid-template-columns: 1.5fr 1.5fr 1fr;
-	grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-	gap: 4px 4px;
-	font-size: 1.5rem;
-	font-family: "lobster";
-	background-image: url(../imagenes/Arvejas.jpg) ;
-	background-size: cover;
-	padding: 3rem;
-	text-align: center;
-}
-
-.info {
-	background-color: none;
-	width: 100%;
-	height: 100%;
-	justify-items: center;
-	padding-left: 2.5rem;
-}
-
-.info-1 {
-	background-color: #9fc0886b;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 4;
-}
-
-.info-2 {
-	background-color: #3b61207c;
-}
-
-.info-3 {
-	background-color: #f57a3371;
-}
-.info-tecnica{
-	font-size: 2.5rem;
-
-}
-
-// contacto
-
-.card-title {
-	font-family: "lobster";
-	font-size: 3rem;
-}
-
-.card-text {
-	font-family: "hartone";
-	font-size: 1.5rem;
-}
 
 .card-text img {
 	width: 7.5rem;
 	border-radius: 100%;
-}
-
-.card {
-	position: initial;
 }
 
 .img-fluid-contacto {
@@ -141,22 +27,14 @@ background-color: rgb(0, 0, 0);
 	margin-left: 11rem;
 }
 
-// quienes somos
 
-.contenedor {  display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-	gap: 8px 8px;
-	grid-auto-flow: row;
-	grid-template-areas:
-	  ". .";
-  }
-  
+
+// quienes somos
 
 .img-quienes-somos {
 	width: 100%;
-
 }
+
 
 .img-quienes-somos img {
 	width: 100%;
@@ -168,60 +46,9 @@ background-color: rgb(0, 0, 0);
 	@media screen and (max-width: 540px) {
 		width: 100%;
 	}
+
 }
-
-
 // quiero ser distribuidor
-
-.container {
-	display: grid;
-	grid-template-columns: 1fr 1.5fr;
-	grid-template-rows: 0.5fr;
-	gap: 5px 4px;
-	grid-auto-flow: row;
-	grid-template-areas:
-		". .";
-
-	@media screen and (max-width: 450px) {
-		display: block;
-
-	}
-
-	@media screen and (max-width: 1024px) {
-		display: block;
-	}
-}
-
-.p-1 {
-	font-family: "lobster";
-	font-size: 3rem;
-
-	@media screen and (max-width: 450px) {
-		font-size: 2rem;
-		margin: auto;
-	}
-}
-
-.p-2 {
-	text-align: start;
-	font-family: "lobster";
-	font-size: 2rem;
-
-	@media screen and (max-width: 450px) {
-		font-size: 1rem;
-		margin: auto;
-	}
-}
-
-.p-3 {
-	font-family: "hartone";
-	font-size: 1.5rem;
-
-	@media screen and (max-width: 450px) {
-		font-size: 0.75rem;
-		margin: auto;
-	}
-}
 
 .img-kangoo {
 	width: 100%;
@@ -236,7 +63,7 @@ background-color: rgb(0, 0, 0);
 		margin-left: 0rem;
 	}
 }
-.img-kangoo img{
+
+.img-kangoo img {
 	width: 100%;
 }
-
